@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="one_joint_board1_xem6010.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_USERDOC" xil_pn:name="../../source/io/blk_mem_gen_readme.txt" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="../../source/io/coregen.log"/>
+    <file xil_pn:fileType="FILE_ASY" xil_pn:name="../../source/io/neuron_ram.asy" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="../../source/io/neuron_ram.ngc" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="../../source/io/neuron_ram.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="../../source/io/neuron_ram.v" xil_pn:origination="imported">
+      <branch xil_pn:name="Implementation"/>
+      <branch xil_pn:name="BehavioralSim"/>
+    </file>
+    <file xil_pn:fileType="FILE_VEO" xil_pn:name="../../source/io/neuron_ram.veo" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VHO" xil_pn:name="../../source/io/neuron_ram.vho" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="board1_muscle_neuron_limb_xem6010.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="board1_muscle_neuron_limb_xem6010.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="board1_muscle_neuron_limb_xem6010.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="board1_muscle_neuron_limb_xem6010.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="board1_muscle_neuron_limb_xem6010.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="board1_muscle_neuron_limb_xem6010.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="board1_muscle_neuron_limb_xem6010.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="board1_muscle_neuron_limb_xem6010.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="board1_muscle_neuron_limb_xem6010.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="board1_muscle_neuron_limb_xem6010.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="board1_muscle_neuron_limb_xem6010.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="board1_muscle_neuron_limb_xem6010.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="board1_muscle_neuron_limb_xem6010.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="board1_muscle_neuron_limb_xem6010.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="board1_muscle_neuron_limb_xem6010.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="board1_muscle_neuron_limb_xem6010.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="board1_muscle_neuron_limb_xem6010.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="board1_muscle_neuron_limb_xem6010.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="board1_muscle_neuron_limb_xem6010.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="board1_muscle_neuron_limb_xem6010.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="board1_muscle_neuron_limb_xem6010.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="board1_muscle_neuron_limb_xem6010.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="board1_muscle_neuron_limb_xem6010.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="board1_muscle_neuron_limb_xem6010_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="board1_muscle_neuron_limb_xem6010_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="board1_muscle_neuron_limb_xem6010_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="board1_muscle_neuron_limb_xem6010_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="board1_muscle_neuron_limb_xem6010_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="board1_muscle_neuron_limb_xem6010_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="board1_muscle_neuron_limb_xem6010_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="board1_muscle_neuron_limb_xem6010_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="board1_muscle_neuron_limb_xem6010_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="board1_muscle_neuron_limb_xem6010_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="board1_muscle_neuron_limb_xem6010_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="board1_muscle_neuron_limb_xem6010_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="board1_muscle_neuron_limb_xem6010_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="board1_muscle_neuron_limb_xem6010_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="board1_muscle_neuron_limb_xem6010_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="board1_muscle_neuron_xem6010.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="board1_muscle_neuron_xem6010.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="board1_muscle_neuron_xem6010.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="board1_muscle_neuron_xem6010.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="board1_muscle_neuron_xem6010.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="board1_muscle_neuron_xem6010.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="board1_muscle_neuron_xem6010.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="board1_muscle_neuron_xem6010.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="board1_muscle_neuron_xem6010.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="board1_muscle_neuron_xem6010.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="board1_muscle_neuron_xem6010.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="board1_muscle_neuron_xem6010.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="board1_muscle_neuron_xem6010.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="board1_muscle_neuron_xem6010.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="board1_muscle_neuron_xem6010.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="board1_muscle_neuron_xem6010.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="board1_muscle_neuron_xem6010.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="board1_muscle_neuron_xem6010.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="board1_muscle_neuron_xem6010.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="board1_muscle_neuron_xem6010.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="board1_muscle_neuron_xem6010_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="board1_muscle_neuron_xem6010_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="board1_muscle_neuron_xem6010_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="board1_muscle_neuron_xem6010_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="board1_muscle_neuron_xem6010_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="board1_muscle_neuron_xem6010_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="board1_muscle_neuron_xem6010_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="board1_muscle_neuron_xem6010_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="board1_muscle_neuron_xem6010_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="double_muscle_1chip_xem6010.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="double_muscle_1chip_xem6010.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="double_muscle_1chip_xem6010.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="double_muscle_1chip_xem6010.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="double_muscle_1chip_xem6010.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="double_muscle_1chip_xem6010.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="double_muscle_1chip_xem6010.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="double_muscle_1chip_xem6010.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="double_muscle_1chip_xem6010.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="double_muscle_1chip_xem6010.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="double_muscle_1chip_xem6010.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="double_muscle_1chip_xem6010.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="double_muscle_1chip_xem6010.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="double_muscle_1chip_xem6010.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="double_muscle_1chip_xem6010.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="double_muscle_1chip_xem6010.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="double_muscle_1chip_xem6010.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="double_muscle_1chip_xem6010.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="double_muscle_1chip_xem6010.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="double_muscle_1chip_xem6010.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="double_muscle_1chip_xem6010.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="double_muscle_1chip_xem6010.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="double_muscle_1chip_xem6010.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="double_muscle_1chip_xem6010_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="double_muscle_1chip_xem6010_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="double_muscle_1chip_xem6010_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="double_muscle_1chip_xem6010_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="double_muscle_1chip_xem6010_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="double_muscle_1chip_xem6010_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="double_muscle_1chip_xem6010_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="double_muscle_1chip_xem6010_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="double_muscle_1chip_xem6010_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="double_muscle_1chip_xem6010_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="double_muscle_1chip_xem6010_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="double_muscle_1chip_xem6010_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="double_muscle_1chip_xem6010_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="double_muscle_1chip_xem6010_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="double_muscle_1chip_xem6010_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="double_muscle_board1_xem6010.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="double_muscle_board1_xem6010.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="double_muscle_board1_xem6010.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="double_muscle_board1_xem6010.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="double_muscle_board1_xem6010.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="double_muscle_board1_xem6010.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="double_muscle_board1_xem6010.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="double_muscle_board1_xem6010.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="double_muscle_board1_xem6010.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="double_muscle_board1_xem6010.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="double_muscle_board1_xem6010.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="double_muscle_board1_xem6010.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="double_muscle_board1_xem6010.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="double_muscle_board1_xem6010.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="double_muscle_board1_xem6010.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="double_muscle_board1_xem6010.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="double_muscle_board1_xem6010.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="double_muscle_board1_xem6010.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="double_muscle_board1_xem6010.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="double_muscle_board1_xem6010.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="double_muscle_board1_xem6010.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="double_muscle_board1_xem6010.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="double_muscle_board1_xem6010.xst"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="double_muscle_board1_xem6010_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="double_muscle_board1_xem6010_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="double_muscle_board1_xem6010_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="double_muscle_board1_xem6010_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="double_muscle_board1_xem6010_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="double_muscle_board1_xem6010_map.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="double_muscle_board1_xem6010_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="double_muscle_board1_xem6010_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="double_muscle_board1_xem6010_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="double_muscle_board1_xem6010_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="double_muscle_board1_xem6010_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="double_muscle_board1_xem6010_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="double_muscle_board1_xem6010_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="ipcore_dir/coregen.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="okHost.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="okHost.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="okHost.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="okHost.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="okHost.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="okHost.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="okHost.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="okHost.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="okHost.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="okHost.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="okHost_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="okHost_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="okHost_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="okHost_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="okHost_xst.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="okWireIn_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="okWireIn_isim_beh.wdb"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="okWireOut_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="okWireOut_isim_beh.wdb"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="one_joint_board1_xem6010.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="one_joint_board1_xem6010.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="one_joint_board1_xem6010.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="one_joint_board1_xem6010.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="one_joint_board1_xem6010.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="one_joint_board1_xem6010.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="one_joint_board1_xem6010.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="one_joint_board1_xem6010.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="one_joint_board1_xem6010.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="one_joint_board1_xem6010.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="one_joint_board1_xem6010.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="one_joint_board1_xem6010.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="one_joint_board1_xem6010.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="one_joint_board1_xem6010.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="one_joint_board1_xem6010.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="one_joint_board1_xem6010.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="one_joint_board1_xem6010.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="one_joint_board1_xem6010.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="one_joint_board1_xem6010.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="one_joint_board1_xem6010.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="one_joint_board1_xem6010.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="one_joint_board1_xem6010.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="one_joint_board1_xem6010.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="one_joint_board1_xem6010_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="one_joint_board1_xem6010_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="one_joint_board1_xem6010_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="one_joint_board1_xem6010_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="one_joint_board1_xem6010_isim_beh.wdb"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="one_joint_board1_xem6010_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="one_joint_board1_xem6010_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="one_joint_board1_xem6010_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="one_joint_board1_xem6010_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="one_joint_board1_xem6010_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="one_joint_board1_xem6010_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="one_joint_board1_xem6010_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="one_joint_board1_xem6010_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="one_joint_board1_xem6010_par.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="one_joint_board1_xem6010_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="one_joint_board1_xem6010_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="one_joint_board1_xem6010_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="one_joint_board1_xem6010_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="one_joint_board1_xem6010_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_2"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="signed_mult32_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="spindle_bag1_neuron_xem6010.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="spindle_bag1_neuron_xem6010.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="spindle_bag1_neuron_xem6010.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="spindle_bag1_neuron_xem6010.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="spindle_bag1_neuron_xem6010.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="spindle_bag1_neuron_xem6010.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="spindle_bag1_neuron_xem6010.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="spindle_bag1_neuron_xem6010.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="spindle_bag1_neuron_xem6010.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="spindle_bag1_neuron_xem6010.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="spindle_bag1_neuron_xem6010.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="spindle_bag1_neuron_xem6010.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="spindle_bag1_neuron_xem6010.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="spindle_bag1_neuron_xem6010.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="spindle_bag1_neuron_xem6010.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="spindle_bag1_neuron_xem6010.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="spindle_bag1_neuron_xem6010.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="spindle_bag1_neuron_xem6010.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="spindle_bag1_neuron_xem6010.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="spindle_bag1_neuron_xem6010.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="spindle_bag1_neuron_xem6010_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="spindle_bag1_neuron_xem6010_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="spindle_bag1_neuron_xem6010_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="spindle_bag1_neuron_xem6010_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="spindle_bag1_neuron_xem6010_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="spindle_bag1_neuron_xem6010_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="spindle_bag1_neuron_xem6010_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="spindle_bag1_neuron_xem6010_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="spindle_bag1_neuron_xem6010_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="spindle_bag1_neuron_xem6010_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="spindle_bag1_neuron_xem6010_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="spindle_bag1_neuron_xem6010_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="spindle_bag1_neuron_xem6010_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="spindle_bag2_neuron_xem6010.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="spindle_bag2_neuron_xem6010.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="spindle_bag2_neuron_xem6010.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="spindle_bag2_neuron_xem6010.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="spindle_bag2_neuron_xem6010.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="spindle_bag2_neuron_xem6010.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="spindle_bag2_neuron_xem6010.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="spindle_bag2_neuron_xem6010.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="spindle_bag2_neuron_xem6010.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="spindle_bag2_neuron_xem6010.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="spindle_bag2_neuron_xem6010.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="spindle_bag2_neuron_xem6010.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="spindle_bag2_neuron_xem6010.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="spindle_bag2_neuron_xem6010.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="spindle_bag2_neuron_xem6010.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="spindle_bag2_neuron_xem6010.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="spindle_bag2_neuron_xem6010.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="spindle_bag2_neuron_xem6010.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="spindle_bag2_neuron_xem6010.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="spindle_bag2_neuron_xem6010.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="spindle_bag2_neuron_xem6010_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="spindle_bag2_neuron_xem6010_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="spindle_bag2_neuron_xem6010_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="spindle_bag2_neuron_xem6010_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="spindle_bag2_neuron_xem6010_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="spindle_bag2_neuron_xem6010_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="spindle_bag2_neuron_xem6010_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="spindle_bag2_neuron_xem6010_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="spindle_bag2_neuron_xem6010_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="spindle_bag2_neuron_xem6010_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="spindle_bag2_neuron_xem6010_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="spindle_bag2_neuron_xem6010_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="spindle_bag2_neuron_xem6010_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="spindle_neuron_xem6010.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="spindle_neuron_xem6010.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="spindle_neuron_xem6010.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="spindle_neuron_xem6010.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="spindle_neuron_xem6010.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="spindle_neuron_xem6010.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="spindle_neuron_xem6010.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="spindle_neuron_xem6010.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="spindle_neuron_xem6010.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="spindle_neuron_xem6010.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="spindle_neuron_xem6010.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="spindle_neuron_xem6010.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="spindle_neuron_xem6010.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="spindle_neuron_xem6010.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="spindle_neuron_xem6010.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="spindle_neuron_xem6010.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="spindle_neuron_xem6010.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="spindle_neuron_xem6010.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="spindle_neuron_xem6010.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="spindle_neuron_xem6010.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="spindle_neuron_xem6010_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="spindle_neuron_xem6010_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="spindle_neuron_xem6010_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="spindle_neuron_xem6010_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="spindle_neuron_xem6010_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="spindle_neuron_xem6010_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="spindle_neuron_xem6010_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="spindle_neuron_xem6010_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="spindle_neuron_xem6010_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="spindle_neuron_xem6010_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="spindle_neuron_xem6010_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="spindle_neuron_xem6010_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="spindle_neuron_xem6010_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="spindle_synapse_MN_xem6010.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="spindle_synapse_MN_xem6010.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="spindle_synapse_MN_xem6010.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="spindle_synapse_MN_xem6010.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="spindle_synapse_MN_xem6010.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="spindle_synapse_MN_xem6010.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="spindle_synapse_MN_xem6010.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="spindle_synapse_MN_xem6010.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="spindle_synapse_MN_xem6010.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="spindle_synapse_MN_xem6010.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="spindle_synapse_MN_xem6010.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="spindle_synapse_MN_xem6010.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="spindle_synapse_MN_xem6010.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="spindle_synapse_MN_xem6010.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="spindle_synapse_MN_xem6010.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="spindle_synapse_MN_xem6010.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="spindle_synapse_MN_xem6010.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="spindle_synapse_MN_xem6010.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="spindle_synapse_MN_xem6010.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="spindle_synapse_MN_xem6010.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="spindle_synapse_MN_xem6010_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="spindle_synapse_MN_xem6010_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="spindle_synapse_MN_xem6010_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="spindle_synapse_MN_xem6010_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="spindle_synapse_MN_xem6010_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="spindle_synapse_MN_xem6010_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="spindle_synapse_MN_xem6010_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="spindle_synapse_MN_xem6010_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="spindle_synapse_MN_xem6010_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="spindle_synapse_MN_xem6010_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="spindle_synapse_MN_xem6010_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="spindle_synapse_MN_xem6010_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="spindle_synapse_MN_xem6010_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="stretch_reflex_xem6010.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="stretch_reflex_xem6010.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="stretch_reflex_xem6010.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="stretch_reflex_xem6010.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="stretch_reflex_xem6010.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="stretch_reflex_xem6010.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="stretch_reflex_xem6010.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="stretch_reflex_xem6010.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="stretch_reflex_xem6010.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="stretch_reflex_xem6010.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="stretch_reflex_xem6010.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="stretch_reflex_xem6010.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="stretch_reflex_xem6010.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="stretch_reflex_xem6010.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="stretch_reflex_xem6010.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="stretch_reflex_xem6010.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="stretch_reflex_xem6010.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="stretch_reflex_xem6010.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="stretch_reflex_xem6010.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="stretch_reflex_xem6010.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="stretch_reflex_xem6010_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="stretch_reflex_xem6010_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="stretch_reflex_xem6010_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="stretch_reflex_xem6010_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="stretch_reflex_xem6010_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="stretch_reflex_xem6010_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="stretch_reflex_xem6010_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="stretch_reflex_xem6010_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="stretch_reflex_xem6010_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="stretch_reflex_xem6010_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="stretch_reflex_xem6010_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="stretch_reflex_xem6010_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="stretch_reflex_xem6010_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1340057029" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1340057027">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1340227280" xil_pn:in_ck="-890727164546636626" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1340227280">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1340062412" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-3013759921157252988" xil_pn:start_ts="1340062412">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1340062412" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-8838457059082012606" xil_pn:start_ts="1340062412">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1340225847" xil_pn:in_ck="-3576252247138894627" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-1473930526863990211" xil_pn:start_ts="1340225847">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <outfile xil_pn:name="../../source/io/neuron_ram.ngc"/>
+      <outfile xil_pn:name="../../source/io/neuron_ram.v"/>
+      <outfile xil_pn:name="ipcore_dir/blk_mem_gen_v6_1.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/blk_mem_gen_v6_1.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1340227280" xil_pn:in_ck="3917293132067003459" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1340227280">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1340227282" xil_pn:in_ck="3917293132067003459" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-5505821839702605273" xil_pn:start_ts="1340227280">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1340227283" xil_pn:in_ck="-1141767656262815701" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="4074919339753783882" xil_pn:start_ts="1340227282">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1340740800" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1340740800">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1340740800" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="4208904172549714562" xil_pn:start_ts="1340740800">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1340837505" xil_pn:in_ck="-3576252247138894627" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-1473930526863990211" xil_pn:start_ts="1340837505">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../../source/io/neuron_ram.ngc"/>
+      <outfile xil_pn:name="../../source/io/neuron_ram.v"/>
+      <outfile xil_pn:name="ipcore_dir/blk_mem_gen_v6_1.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/blk_mem_gen_v6_1.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1340740800" xil_pn:in_ck="-3918241064082997573" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1340740800">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1340740800" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-3013759921157252988" xil_pn:start_ts="1340740800">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1340740800" xil_pn:in_ck="-3918241064082997573" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-2098939838453108159" xil_pn:start_ts="1340740800">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1340740800" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-6918201028627663737" xil_pn:start_ts="1340740800">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1340919591" xil_pn:in_ck="3917293132067003459" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-7434123857059378260" xil_pn:start_ts="1340919557">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="one_joint_board1_xem6010.lso"/>
+      <outfile xil_pn:name="one_joint_board1_xem6010.ngc"/>
+      <outfile xil_pn:name="one_joint_board1_xem6010.ngr"/>
+      <outfile xil_pn:name="one_joint_board1_xem6010.prj"/>
+      <outfile xil_pn:name="one_joint_board1_xem6010.stx"/>
+      <outfile xil_pn:name="one_joint_board1_xem6010.syr"/>
+      <outfile xil_pn:name="one_joint_board1_xem6010.xst"/>
+      <outfile xil_pn:name="one_joint_board1_xem6010_beh.prj"/>
+      <outfile xil_pn:name="one_joint_board1_xem6010_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1340741227" xil_pn:in_ck="5237465785819722873" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="4904528435505482543" xil_pn:start_ts="1340741227">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1340919595" xil_pn:in_ck="-4526651501018399462" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="386084432657819230" xil_pn:start_ts="1340919591">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="one_joint_board1_xem6010.bld"/>
+      <outfile xil_pn:name="one_joint_board1_xem6010.ngd"/>
+      <outfile xil_pn:name="one_joint_board1_xem6010_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1340919650" xil_pn:in_ck="6774144502036439469" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="-5657126474599326901" xil_pn:start_ts="1340919595">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="one_joint_board1_xem6010.pcf"/>
+      <outfile xil_pn:name="one_joint_board1_xem6010_map.map"/>
+      <outfile xil_pn:name="one_joint_board1_xem6010_map.mrp"/>
+      <outfile xil_pn:name="one_joint_board1_xem6010_map.ncd"/>
+      <outfile xil_pn:name="one_joint_board1_xem6010_map.ngm"/>
+      <outfile xil_pn:name="one_joint_board1_xem6010_map.xrpt"/>
+      <outfile xil_pn:name="one_joint_board1_xem6010_summary.xml"/>
+      <outfile xil_pn:name="one_joint_board1_xem6010_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1340919700" xil_pn:in_ck="-6787650932875675450" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="-2362651792651823936" xil_pn:start_ts="1340919650">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="one_joint_board1_xem6010.ncd"/>
+      <outfile xil_pn:name="one_joint_board1_xem6010.pad"/>
+      <outfile xil_pn:name="one_joint_board1_xem6010.par"/>
+      <outfile xil_pn:name="one_joint_board1_xem6010.ptwx"/>
+      <outfile xil_pn:name="one_joint_board1_xem6010.unroutes"/>
+      <outfile xil_pn:name="one_joint_board1_xem6010.xpi"/>
+      <outfile xil_pn:name="one_joint_board1_xem6010_pad.csv"/>
+      <outfile xil_pn:name="one_joint_board1_xem6010_pad.txt"/>
+      <outfile xil_pn:name="one_joint_board1_xem6010_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1340919720" xil_pn:in_ck="5237465785819715248" xil_pn:name="TRANEXT_bitFile_spartan6" xil_pn:prop_ck="396117104113915555" xil_pn:start_ts="1340919700">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="one_joint_board1_xem6010.bgn"/>
+      <outfile xil_pn:name="one_joint_board1_xem6010.bit"/>
+      <outfile xil_pn:name="one_joint_board1_xem6010.drc"/>
+      <outfile xil_pn:name="one_joint_board1_xem6010.ut"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1340919700" xil_pn:in_ck="-5415036603432783063" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416184" xil_pn:start_ts="1340919689">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="one_joint_board1_xem6010.twr"/>
+      <outfile xil_pn:name="one_joint_board1_xem6010.twx"/>
+    </transform>
+  </transforms>
+
+</generated_project>
